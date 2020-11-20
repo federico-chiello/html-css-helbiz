@@ -46,6 +46,7 @@
   float: left;
 }
 
+
 /* allineamento */
 .text-right {
   text-align: right;
@@ -65,6 +66,10 @@
 
 .mr-10 {
   margin-right: 10px;
+}
+
+.mlr-40px {
+  margin: 0 40px;
 }
 /* / margin */
 
