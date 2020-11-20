@@ -107,8 +107,12 @@ ul.navbar-language :not(li:last-child) a {
 /* / prodotti */
 
 /* steps */
+#steps {
+  position: relative;
+}
+
 #steps .banner{
-  height: 500px;
+  height: 350px;
   background-image: url('../img/index-banner.1f6fd0a.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -116,6 +120,10 @@ ul.navbar-language :not(li:last-child) a {
 
 #steps .container img {
   height: 500px;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(- 20%, - 40%);
 }
 /* / steps */
 
