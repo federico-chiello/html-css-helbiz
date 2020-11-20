@@ -58,12 +58,21 @@
 .m-10 {
   margin: 10px;
 }
+
+.m-40 {
+  margin: 40px
+}
+
 .mr-10 {
   margin-right: 10px;
 }
 /* / margin */
 
 /* padding */
+.p-50 {
+  padding: 50px;
+}
+
 .ptb-50 {
   padding: 50px 0;
 }
