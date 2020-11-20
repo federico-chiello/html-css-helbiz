@@ -101,7 +101,7 @@ ul.navbar-language :not(li:last-child) a {
   height: 400px;
 }
 
-#prodotti .row .row .grey {
+.grey {
   background-color: #fafafa;
 }
 
