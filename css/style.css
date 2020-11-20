@@ -109,6 +109,7 @@ ul.navbar-language :not(li:last-child) a {
 /* steps */
 #steps {
   position: relative;
+  margin-bottom: 150px;
 }
 
 #steps .banner{
