@@ -75,3 +75,29 @@ ul.navbar-language :not(li:last-child) a {
     font-size: 26px;
   }
 }
+/* / jumbo */
+/* Header */
+
+/* Main */
+
+/* prodotti */
+#prodotti h2 {
+  font-size: 30px;
+}
+
+#prodotti p {
+  font-size: 20px;
+}
+
+#prodotti h2, p, a {
+  padding-bottom: 20px;
+}
+
+#prodotti img {
+  height: 400px;
+}
+
+
+/* / prodotti */
+
+/* /main */
