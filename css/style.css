@@ -43,7 +43,7 @@ ul.navbar-language li a {
   vertical-align: middle;
 }
 
-ul.navbar-language :not(li:last-child) a {
+ul.navbar-language:not(li:last-child) a {
   border-right: 2px solid black;
   padding-right: 10px;
 }
@@ -98,11 +98,23 @@ ul.navbar-language :not(li:last-child) a {
 }
 
 #prodotti img {
-  height: 400px;
+  height: 350px;
 }
 
 .grey {
   background-color: #fafafa;
+}
+
+@media screen and (max-width:992px){
+  #prodotti img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:768px){
+  #prodotti img {
+    height: 250px;
+  }
 }
 /* / prodotti */
 
@@ -120,12 +132,30 @@ ul.navbar-language :not(li:last-child) a {
 }
 
 #steps .container img {
-  height: 500px;
+  height: 400px;
   position: absolute;
-  top: 20%;
-  left: 40%;
-  transform: translate(- 20%, - 40%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin-top: 100px;
 }
 /* / steps */
+
+/* Mobility */
+#mobility {
+  color: white;
+}
+#mobility a {
+  color: white;
+}
+#mobility h2 {
+  font-size: 40px;
+}
+.scooter {
+  height: 600px;
+  background-image: url('../img/scooter.f0a0397.jpg');
+  background-repeat: no-repeat;
+}
+/* /mobility */
 
 /* /main */
