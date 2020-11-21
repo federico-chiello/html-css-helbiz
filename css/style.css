@@ -168,6 +168,13 @@ ul.navbar-language:not(li:last-child) a {
   background-color: #374858;
 }
 
+.city {
+  height: 540px;
+  background-image: url('../img/city.7c8c928.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* app */
 
 /* /main */
