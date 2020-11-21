@@ -207,8 +207,12 @@ ul.navbar-language:not(li:last-child) a {
 /* app */
 
 /* family */
+#family {
+  margin-bottom: 30px;
+}
+
 .fotografie {
-  height: 350px;
+  height: 400px;
   background-image: url('../img/fotografie.png');
   background-repeat: no-repeat;
   background-size: cover;
