@@ -159,6 +159,14 @@ ul.navbar-language:not(li:last-child) a {
 /* /mobility */
 
 /* app */
+#app,
+#app a {
+  color: white;
+}
+
+.anthracite {
+  background-color: #374858;
+}
 
 /* app */
 
