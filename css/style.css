@@ -144,6 +144,7 @@ ul.navbar-language:not(li:last-child) a {
 /* Mobility */
 #mobility {
   color: white;
+  margin-bottom: 30px;
 }
 #mobility a {
   color: white;
@@ -151,11 +152,20 @@ ul.navbar-language:not(li:last-child) a {
 #mobility h2 {
   font-size: 40px;
 }
-
 .scooter {
-  height: 600px;
+  height: 500px;
   background-image: url('../img/scooter.f0a0397.jpg');
   background-repeat: no-repeat;
+}
+
+@media screen  and (max-width:992px) {
+  #mobility,
+  #mobility .row {
+    height: 500px;
+  }
+  #mobility .col-md-5 {
+    padding: 60px;
+  }
 }
 /* /mobility */
 
@@ -188,6 +198,22 @@ ul.navbar-language:not(li:last-child) a {
   background-repeat: no-repeat;
 }
 
+@media screen  and (max-width:992px) {
+  .phone{
+    margin-right: 0;
+  }
+}
+
 /* app */
+
+/* family */
+.fotografie {
+  height: 350px;
+  background-image: url('../img/fotografie.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* /family */
 
 /* /main */
