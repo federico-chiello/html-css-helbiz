@@ -120,7 +120,6 @@ ul.navbar-language:not(li:last-child) a {
 
 /* steps */
 #steps {
-  position: relative;
   margin-bottom: 150px;
 }
 
@@ -133,11 +132,8 @@ ul.navbar-language:not(li:last-child) a {
 
 #steps .container img {
   height: 400px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -40%);
-  margin-top: 100px;
+  position: relative;
+  transform: translate(0, -50%);
 }
 /* / steps */
 
