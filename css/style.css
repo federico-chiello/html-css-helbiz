@@ -226,9 +226,18 @@ footer {
   padding-top: 80px;
   background-color: black;
 }
+
+footer .first {
+  padding-bottom: 30px;
+}
+
 footer,
 footer a {
   color: white;
+}
+
+footer a {
+  padding-bottom: 0;
 }
 
 footer h3 {
@@ -238,5 +247,16 @@ footer h3 {
 
 footer li {
   padding-bottom: 15px;
+}
+
+footer .second ul li {
+  font-size: 25px;
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+footer span {
+  vertical-align: middle;
 }
 /* / footer */
