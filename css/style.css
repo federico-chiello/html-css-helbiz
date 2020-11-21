@@ -219,5 +219,24 @@ ul.navbar-language:not(li:last-child) a {
   background-position: center;
 }
 /* /family */
-
 /* /main */
+
+/* Footer */
+footer {
+  padding-top: 80px;
+  background-color: black;
+}
+footer,
+footer a {
+  color: white;
+}
+
+footer h3 {
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
+footer li {
+  padding-bottom: 15px;
+}
+/* / footer */
