@@ -74,6 +74,10 @@
 /* / margin */
 
 /* padding */
+.p-15 {
+  padding: 15px;
+}
+
 .p-30 {
   padding: 30px;
 }
@@ -90,12 +94,16 @@
   padding: 50px;
 }
 
+.plr-100 {
+  padding: 0px 100px;
+}
+
 .ptb-50 {
   padding: 50px 0;
 }
 
-.ptb-150 {
-  padding: 150px 0;
+.p-120 {
+  padding: 120px;
 }
 
 /* /padding */

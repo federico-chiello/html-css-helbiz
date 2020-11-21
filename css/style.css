@@ -151,6 +151,7 @@ ul.navbar-language:not(li:last-child) a {
 #mobility h2 {
   font-size: 40px;
 }
+
 .scooter {
   height: 600px;
   background-image: url('../img/scooter.f0a0397.jpg');
@@ -159,6 +160,10 @@ ul.navbar-language:not(li:last-child) a {
 /* /mobility */
 
 /* app */
+#app {
+  margin-bottom: 30px;
+}
+
 #app,
 #app a {
   color: white;
@@ -168,8 +173,16 @@ ul.navbar-language:not(li:last-child) a {
   background-color: #374858;
 }
 
+.phone {
+  margin-right: 30px;
+}
+
+#app ul li {
+  display: inline-block;
+}
+
 .city {
-  height: 540px;
+  height: 548px;
   background-image: url('../img/city.7c8c928.jpg');
   background-size: cover;
   background-repeat: no-repeat;
