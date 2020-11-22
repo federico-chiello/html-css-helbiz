@@ -120,20 +120,33 @@ ul.navbar-language:not(li:last-child) a {
 
 /* steps */
 #steps {
-  margin-bottom: 150px;
+  margin-bottom: 250px;
 }
 
-#steps .banner{
-  height: 350px;
+#steps .testo {
+  padding-top: 450px;
+  text-align: left;
+}
+
+#steps .question {
+  padding-left: 200px;
+}
+
+#steps.banner{
+  height: 380px;
   background-image: url('../img/index-banner.1f6fd0a.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-#steps .container img {
+#steps .iphone {
+  padding-top: 150px;
+}
+
+#steps img {
+  text-align: center;
   height: 400px;
-  position: relative;
-  transform: translate(0, -50%);
+
 }
 /* / steps */
 
