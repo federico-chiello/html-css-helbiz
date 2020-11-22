@@ -116,6 +116,12 @@ ul.navbar-language:not(li:last-child) a {
     height: 250px;
   }
 }
+
+@media screen and (max-width:420px){
+  #prodotti img {
+    height: 200px;
+  }
+}
 /* / prodotti */
 
 /* steps */
@@ -146,8 +152,42 @@ ul.navbar-language:not(li:last-child) a {
 #steps img {
   text-align: center;
   height: 400px;
+}
+
+@media screen and (max-width:992px){
+  #steps .iphone {
+      padding-top: 85px;
+  }
+  #steps img {
+    height: 300px;
+  }
+
+#steps .testo,
+#steps .question {
+    padding-top: 280px;
+}
+body {
+  font-size: 22px;
+}
 
 }
+
+@media screen and (max-width:768px){
+  #steps .iphone {
+      padding-top: 50px;
+  }
+  #steps img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width:420px){
+  #steps .testo, .question {
+      padding-top: 220px;
+      padding-left: 90px;
+  }
+}
+
 /* / steps */
 
 /* Mobility */
@@ -172,7 +212,7 @@ ul.navbar-language:not(li:last-child) a {
   #mobility .row {
     height: 500px;
   }
-  #mobility .col-md-5 {
+  #mobility .col-md-11 {
     padding: 60px;
   }
 }
@@ -212,7 +252,6 @@ ul.navbar-language:not(li:last-child) a {
     margin-right: 0;
   }
 }
-
 /* app */
 
 /* family */
@@ -289,4 +328,9 @@ footer .third img {
   border-radius: 10px;
 }
 
+@media screen and (max-width:768px){
+  footer {
+    text-align: center;
+  }
+}
 /* / footer */
